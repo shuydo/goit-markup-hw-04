@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Вэб-студия</title>
 
-    <style>
-    </style>
+    <style></style>
 
     <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -17,7 +16,9 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <!--target="_blank" rel="nofollow noreferrer"-->
+
   <body>
+
     <header class="header">
       <div class="container">
         <nav class="navigation">
@@ -54,6 +55,7 @@
         </address>
       </div>
     </header>
+
     <main>
       <section class="hero">
         <div class="container">
@@ -72,9 +74,11 @@
         <div class="container">
           <ul class="vertu-list list">
             <li class="vertu-item">
-              <svg class="icon" width="70" height="70">
-                <use href="./images/sprite.svg#antenna"></use>
-              </svg>
+              <div class="icon-place">
+                <svg class="icon">
+                  <use href="./images/sprite.svg#antenna"></use>
+                </svg>
+              </div>
               <h3 class="vertu-header">Внимание к деталям</h3>
               <p class="vertu-text">
                 Идейные соображения, а также начало повседневной работы по
@@ -82,19 +86,23 @@
               </p>
             </li>
             <li class="vertu-item">
-              <svg class="icon" width="70" height="70">
+              <div class="icon-place">
+              <svg class="icon">
                 <use href="./images/sprite.svg#clock"></use>
               </svg>
-              <h3 class="vertu-header">Пунктуальность</h3>
+            </div>
+             <h3 class="vertu-header">Пунктуальность</h3>
               <p class="vertu-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
             <li class="vertu-item">
-              <svg class="icon" width="70" height="70">
+              <div class="icon-place">
+              <svg class="icon">
                 <use href="./images/sprite.svg#diagram"></use>
               </svg>
+              </div>
               <h3 class="vertu-header">Планирование</h3>
               <p class="vertu-text">
                 Равным образом консультация с широким активом в значительной
@@ -102,9 +110,11 @@
               </p>
             </li>
             <li class="vertu-item">
-              <svg class="icon" width="70" height="70">
+              <div class="icon-place">
+              <svg class="icon">
                 <use href="./images/sprite.svg#astronaut"></use>
               </svg>
+              </div>
               <h3 class="vertu-header">Современные технологии</h3>
               <p class="vertu-text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -316,6 +326,7 @@
           </ul>
         </div>
       </section>
+
       <!--Постоянные клиенты-->
       <section class="clients">
         <div class="container">
@@ -372,24 +383,27 @@
           </ul>
         </div>
       </section>
+
     </main>
 
     <footer class="footer">
       <div class="container">
+        <div>
         <div class="footer-logo">
-          <span class="logo1st">Web</span
-          ><!--
+          <span class="logo1st">Web</span>
+          <!--
           --><span class="logo2nd">Studio</span>
         </div>
 
-        <address>        
+        <address>
           <ul class="list">
             <li class="address-item">
               <a
                 class="map-address link"
                 href="https://goo.gl/maps/LiFf5QtH2XgNbK3g6"
                 target="_blank"
-                rel="nofollow noreferrer">
+                rel="nofollow noreferrer"
+              >
                 г. Киев, пр-т Леси Украинки, 26
               </a>
             </li>
@@ -402,42 +416,45 @@
               <a class="phone link" href="+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
-          <!-- Присоединяйтесь -->
-          <div class="join-box">
-            <h3 class="join-header">присоединяйтесь</h3>
-            <ul class="social-links list">
-              <li class="footer-soc-links">
-                <button class="soc-button">
-                  <svg class="button-icon">
-                    <use href="./images/sprite.svg#instagram1"></use>
-                  </svg>
-                </button>
-              </li>
-              <li class="footer-soc-links">
-                <button class="soc-button">
-                  <svg class="button-icon">
-                    <use href="./images/sprite.svg#twitter1"></use>
-                  </svg>
-                </button>
-              </li>
-              <li class="footer-soc-links">
-                <button class="soc-button">
-                  <svg class="button-icon">
-                    <use href="./images/sprite.svg#facebook1"></use>
-                  </svg>
-                </button>
-              </li>
-              <li class="footer-soc-links">
-                <button class="soc-button">
-                  <svg class="button-icon">
-                    <use href="./images/sprite.svg#linkedin1"></use>
-                  </svg>
-                </button>
-              </li>
-            </ul>
-          </div>
+          
         </address>
       </div>
+        <!-- Присоединяйтесь -->
+        <div class="join-box">
+          <span class="join-header">присоединяйтесь</span>
+          <ul class="social-links list">
+            <li class="footer-soc-links">
+              <button class="soc-button">
+                <svg class="button-icon">
+                  <use href="./images/sprite.svg#instagram1"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="footer-soc-links">
+              <button class="soc-button">
+                <svg class="button-icon">
+                  <use href="./images/sprite.svg#twitter1"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="footer-soc-links">
+              <button class="soc-button">
+                <svg class="button-icon">
+                  <use href="./images/sprite.svg#facebook1"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="footer-soc-links">
+              <button class="soc-button">
+                <svg class="button-icon">
+                  <use href="./images/sprite.svg#linkedin1"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
+
   </body>
 </html>
