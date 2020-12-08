@@ -85,10 +85,28 @@ img {  display: block;}
   letter-spacing: 0.03em;
   color: #000000;
 }
+.header{
+  /* width: 1600px; */
+  /* text-align: center; */
+  /* margin: 0 auto auto; */
+  /* outline: 1px solid black; */
+}
+.header::after{
+  content: "";
+  width: 1600px;
+  height: 1px;
+  /* background-color: #ECECEC; */
+  background-color: #ECECEC;
+  display: block;
+  margin: 0 auto auto;
+
+
+}
 .header .container {
   display: flex;
   align-items: center;
   height: 80px;
+  /* border-bottom:1px solid #ECECEC; */
   /* outline: 1px solid black; */
 }
 .site-nav {
@@ -152,6 +170,8 @@ img {  display: block;}
 .button:focus {
   color: #ffffff;
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .email,
 .phone {
@@ -601,8 +621,11 @@ img {  display: block;}
 /* End footer */
 /*---------------------для Потрфолио---------------*/
 .portfolio-hero .container {
-  margin-top: 95px;
-  margin-bottom: 95px;
+  /* border-top: #ECECEC; */
+  margin-bottom:94px;
+  padding-top: 94px;
+  /* margin-top: 95px;
+  margin-bottom: 95px; */
 }
 .filter-buttons {
   display: flex;
