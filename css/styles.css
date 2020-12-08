@@ -184,8 +184,14 @@ img {  display: block;}
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  /* width: 1600px; */
   height: 600px;
   /* outline: 1px solid black; */
+}
+.hero{
+  width: 1600px;
+  /* text-align: center; */
+  margin: 0 auto auto;
 }
 
 .hero-title {
